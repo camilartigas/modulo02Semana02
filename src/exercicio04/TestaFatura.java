@@ -1,0 +1,9 @@
+package exercicio04;
+
+public class TestaFatura {
+    public static void main(String[] args) {
+        Fatura fatura = new Fatura("123", "venda de 5 itens", 5, -12.50);
+
+        System.out.println(fatura.getValorFatura());
+    }
+}
